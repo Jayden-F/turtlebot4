@@ -62,7 +62,7 @@ class Turtlebot4 : public rclcpp::Node
 {
 public:
   // Type alias for actions and services
-  using Dock = irobot_create_msgs::action::Dock;
+  using Dock = irobot_create_msgs::action::DockServo;
   using Undock = irobot_create_msgs::action::Undock;
   using WallFollow = irobot_create_msgs::action::WallFollow;
   using LedAnimation = irobot_create_msgs::action::LedAnimation;
